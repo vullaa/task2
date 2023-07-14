@@ -1,0 +1,110 @@
+.app2 {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main2 {
+  border: 1px solid #7a7373;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  border: #7a7373;
+}
+
+.main-bar {
+  border: 1px solid #7a7373;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user {
+  width: 60px;
+  height: 60px;
+}
+
+.content {
+  gap: 3%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: #fff;
+  width: 80%;
+}
+
+.info h6 {
+  color: #7a7373;
+}
+
+.sign1 {
+  align-items: center;
+  margin-right: 1%;
+  font-size: 25px;
+}
+.sign2 {
+  font-size: 15px;
+  font-weight: 200;
+}
+.accordian2 {
+  width: 100%;
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 5px;
+}
+.accordian-header2 {
+  margin: 1%;
+  
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.accordian-header2 h4{
+  font-weight: 600;
+  font-size: 15px;
+}
+.accordian-body2 {
+  margin: 1%;
+  color: #7a7373;
+  height: 25px;
+}
+
+.accordian-body2 h5 {
+  margin: 2%;
+  font-size: 13px;
+  font-weight: 200;
+  
+}
+
+
+@media(max-width: 700px) {
+  .accordian-body2 {
+    height: 35px;
+  }
+  .accordian-header2 h4{
+    font-weight: 600;
+    font-size: 13px;
+  }
+
+  .accordian-body2 h5 {
+    margin: 2%;
+    font-size: 11px;
+    font-weight: 200;
+    
+  }
+  
+}
+
+
+@media(max-width: 500px) {
+  .accordian-body2 {
+    height: 55px;
+  }
+}
